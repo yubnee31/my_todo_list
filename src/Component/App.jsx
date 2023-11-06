@@ -30,12 +30,12 @@ const App = () => {
       />
 
       <TodoList
-        state="Working.."
+        state="Working..🔥"
         todo={todo}
         setTodo={setTodo}
         isDone={false}
       />
-      <TodoList state="Done.." todo={todo} setTodo={setTodo} isDone={true} />
+      <TodoList state="Done..💯" todo={todo} setTodo={setTodo} isDone={true} />
     </div>
   );
 };
