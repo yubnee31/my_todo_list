@@ -1,7 +1,13 @@
 import React from "react";
 
 function Header() {
-  return <header className="header-style">My Todo List</header>;
+  return (
+    <div>
+      <header className="header-style">
+        My Todo List<p>react</p>
+      </header>
+    </div>
+  );
 }
 
 export default Header;

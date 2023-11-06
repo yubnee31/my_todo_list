@@ -25,10 +25,10 @@ function Add({ title, setTitle, body, setBody, todo, setTodo }) {
 
   return (
     <div>
-      제목 : <input value={title} onChange={titleChangeHandler} />
-      내용 : <input value={body} onChange={bodyChangeHandler} />
-      <form onSubmit={addButtonHandler}>
-        <button>추가하기</button>
+      <form className="form-style" onSubmit={addButtonHandler}>
+        제목 : <input value={title} onChange={titleChangeHandler} />
+        내용 : <input value={body} onChange={bodyChangeHandler} />
+        <button className="form-btn">추가하기</button>
       </form>
     </div>
   );

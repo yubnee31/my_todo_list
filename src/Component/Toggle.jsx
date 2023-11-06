@@ -18,7 +18,7 @@ function Toggle({ todos, todo, setTodo }) {
   };
 
   return (
-    <li key={todos.id} className="component-style">
+    <div key={todos.id} className="component-style">
       <p>{todos.title}</p>
       <p>{todos.body}</p>
       <div className="toggle-btns">
@@ -27,7 +27,7 @@ function Toggle({ todos, todo, setTodo }) {
           {todos.isDone ? "취소" : "완료"}
         </button>
       </div>
-    </li>
+    </div>
   );
 }
 
